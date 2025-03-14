@@ -1,3 +1,18 @@
 .time-line-container>div:last-child .education__time>.education__line {
     display: none;
 }
+
+body {
+    font-family: 'Nunito Variable', 'Noto Serif SC Variable', sans-serif;
+}
+
+/* input[lang=en] {
+    font-family: 'nunito';
+    font-size: 12px;
+}
+
+
+input[lang=zh] {
+    font-family: , serif;
+    font-size: 14px;
+} */

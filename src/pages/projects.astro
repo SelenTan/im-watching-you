@@ -1,51 +1,57 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
+import { AUTHOR_INITIAL } from "src/config";
 ---
 
-<BaseLayout title = "Projects" sideBarActiveItemID="projects">
-  <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
-  </div>
+<BaseLayout
+    title={AUTHOR_INITIAL + " | Projects"}
+    sideBarActiveItemID="projects"
+>
+    <div>
+        <div class="text-3xl w-full font-bold mb-5">Projects</div>
+    </div>
 
-  <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
+    <div class="divider my-0"></div>
+    <HorizontalCard
+        title="Nothing to show off at the moment."
+        img="/post_img.webp"
+        desc="More projects will be added soon!"
+        url="#"
+        badge="todo"
+    />
 
-  <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
-  </div>
+    <!-- <HorizontalCard
+        title="Interaction Design Projects"
+        img="/post_img.webp"
+        desc="This is a portfolio of my interaction design projects."
+        url="https://vickyportfolio.notion.site/Zhang-Yunxin-s-Portfolio-552979f90c5a45aeb48526767188fa1e"
+        badge="design"
+    /> -->
 
-  <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 4"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 5"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
+    <div>
+        <div class="text-3xl w-full font-bold mb-5 mt-10">Course Works</div>
+    </div>
+
+    <HorizontalCard
+        title="Except my pets"
+        img="/post_img.webp"
+        desc="Yes, this is my dog Kaka"
+        url="#"
+        badge="kaka"
+    />
+    <div class="divider my-0"></div>
+    <!-- <HorizontalCard
+        title="Demo Project 4"
+        img="/post_img.webp"
+        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        url="#"
+    />
+    <div class="divider my-0"></div>
+    <HorizontalCard
+        title="Demo Project 5"
+        img="/post_img.webp"
+        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        url="#"
+    /> -->
 </BaseLayout>
