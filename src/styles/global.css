@@ -79,14 +79,22 @@
     box-shadow: 0 1px 0 var(--ac-primary-dark);
 }
 
-/* Dividers */
+/* AC-themed dividers using decorative image */
 .divider {
-    opacity: 0.5;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/divider_line.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-height: 2rem;
 }
 
 .divider:before,
 .divider:after {
-    border-color: var(--ac-sand);
+    display: none;
 }
 
 .time-line-container>div:last-child .education__time>.education__line {
