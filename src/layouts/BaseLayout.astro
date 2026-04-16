@@ -32,21 +32,18 @@ const {
     <body>
         <div class="bg-ac-cream drawer lg:drawer-open">
             <input id="my-drawer" type="checkbox" class="drawer-toggle" />
-            <div
-                class="drawer-content bg-base-100 rounded-tl-ac-xl shadow-ac relative overflow-hidden"
-            >
+            <div class="drawer-content bg-base-100 rounded-tl-ac-xl relative min-h-screen flex flex-col">
                 <Header title={SITE_TITLE} />
-                <div class="md:flex md:justify-center">
+                <div class="md:flex md:justify-center flex-1">
                     <main class="p-6 pt-10 lg:max-w-[900px] max-w-[100vw]">
                         <slot />
                     </main>
                 </div>
                 <Footer />
-                <img
-                    src="/tree_light.png"
-                    alt=""
-                    class="absolute bottom-0 right-0 w-48 lg:w-64 pointer-events-none select-none mask mask-circle"
-                />
+
+                <div class="w-full overflow-hidden pointer-events-none select-none flex justify-end mt-auto">
+                    <img src="/banner.png" alt="" class="w-full" />
+                </div>
             </div>
             {
                 includeSidebar && (
