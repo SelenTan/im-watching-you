@@ -96,6 +96,11 @@
     box-shadow: 0 1px 0 var(--ac-primary-dark);
 }
 
+/* Rounded images in prose content (blog posts, notes) */
+.prose img {
+    border-radius: var(--ac-radius-lg);
+}
+
 /* AC-themed dividers using decorative image */
 .divider {
     opacity: 1;
