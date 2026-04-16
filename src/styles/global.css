@@ -1,21 +1,21 @@
 /* Animal Crossing Design Tokens */
 :root {
-    /* Primary palette */
-    --ac-primary: #19c8b9;
-    --ac-primary-light: #7ee3d9;
-    --ac-primary-dark: #0fa89b;
+    /* Primary palette — Misc color */
+    --ac-primary: #2abaaa;
+    --ac-primary-light: #6dd5c8;
+    --ac-primary-dark: #1f9489;
 
-    /* Warm neutrals */
-    --ac-cream: #faf6e9;
-    --ac-cream-dark: #f0e8d4;
-    --ac-sand: #e8dfc6;
+    /* Warm neutrals — Day color */
+    --ac-cream: #f7f3e7;
+    --ac-cream-dark: #ece6d4;
+    --ac-sand: #ddd6c0;
     --ac-wood: #c4a46c;
     --ac-wood-dark: #a8894e;
 
     /* Text colors */
-    --ac-text: #827157;
+    --ac-text: #877358;
     --ac-text-light: #a69580;
-    --ac-text-dark: #5c4f42;
+    --ac-text-dark: #6b5c48;
     --ac-text-white: #ffffff;
 
     /* Accent colors */
@@ -27,15 +27,15 @@
     --ac-brown: #8d6e63;
 
     /* UI surface colors */
-    --ac-bg: #faf6e9;
+    --ac-bg: #f7f3e7;
     --ac-surface: #ffffff;
-    --ac-surface-hover: #fff9ef;
-    --ac-border: #e8dfc6;
+    --ac-surface-hover: #faf7ef;
+    --ac-border: #ddd6c0;
 
     /* Shadows */
-    --ac-shadow: 0 2px 8px rgba(130, 113, 87, 0.12);
-    --ac-shadow-hover: 0 4px 16px rgba(130, 113, 87, 0.2);
-    --ac-shadow-inset: inset 0 2px 4px rgba(130, 113, 87, 0.15);
+    --ac-shadow: 0 2px 8px rgba(135, 115, 88, 0.12);
+    --ac-shadow-hover: 0 4px 16px rgba(135, 115, 88, 0.2);
+    --ac-shadow-inset: inset 0 2px 4px rgba(135, 115, 88, 0.15);
 
     /* Border radius */
     --ac-radius-sm: 8px;
