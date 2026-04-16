@@ -8,7 +8,8 @@ import rehypeKatex from "rehype-katex";
 
 // https://astro.build/config
 export default defineConfig({
-    site: "http://yunxin.org/",
+    site: "https://yunxinz.github.io",
+    base: "/about-me/",
     integrations: [mdx(), sitemap(), tailwind()],
     markdown: {
         remarkPlugins: [remarkMath],
