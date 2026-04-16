@@ -37,6 +37,8 @@ jobs:
 
       - name: Build site
         run: pnpm build
+        env:
+          BASE_URL: /about-me/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
