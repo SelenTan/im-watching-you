@@ -28,6 +28,13 @@ const {
             ogType={ogType}
         />
         {TRANSITION_API && <ViewTransitions />}
+        <script is:inline>
+            (function(){
+                var t = localStorage.getItem('theme');
+                if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'night' : 'nord';
+                document.documentElement.setAttribute('data-theme', t);
+            })();
+        </script>
     </head>
     <body>
         <div class="bg-ac-cream drawer lg:drawer-open">
@@ -42,7 +49,7 @@ const {
                 <Footer />
 
                 <div class="w-full overflow-hidden pointer-events-none select-none flex justify-end mt-auto">
-                    <img src="/banner.png" alt="" class="w-full" />
+                    <img src="/banner_light.png" data-light-src="/banner_light.png" data-dark-src="/banner_dark.png" alt="" class="w-full theme-banner" />
                 </div>
             </div>
             {
@@ -51,5 +58,32 @@ const {
                 )
             }
         </div>
+        <script is:inline>
+            function applyTheme(theme) {
+                document.documentElement.setAttribute('data-theme', theme);
+                localStorage.setItem('theme', theme);
+                document.querySelectorAll('.theme-banner').forEach(function(el) {
+                    el.src = theme === 'night' ? el.getAttribute('data-dark-src') : el.getAttribute('data-light-src') || el.src.replace('_dark', '_light');
+                });
+                var icon = document.getElementById('theme-icon');
+                var label = document.getElementById('theme-label');
+                if (icon) icon.src = theme === 'night' ? '/settings_2.png' : '/settings.png';
+                if (label) label.textContent = theme === 'night' ? 'Light Mode' : 'Dark Mode';
+            }
+            window.toggleTheme = function() {
+                var current = document.documentElement.getAttribute('data-theme') || 'nord';
+                applyTheme(current === 'night' ? 'nord' : 'night');
+            };
+            // init on load
+            (function(){
+                var t = localStorage.getItem('theme') || document.documentElement.getAttribute('data-theme') || 'nord';
+                applyTheme(t);
+            })();
+            // re-apply after Astro View Transitions page swap
+            document.addEventListener('astro:after-swap', function() {
+                var t = localStorage.getItem('theme') || 'nord';
+                applyTheme(t);
+            });
+        </script>
     </body>
 </html>
