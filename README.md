@@ -24,8 +24,8 @@ A cozy, Animal Crossing-themed personal website built with **Astro**, **Tailwind
 
 ```bash
 # Clone this repo (or use it as a template on GitHub)
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+git clone https://github.com/yunxinz/ac-site-template.git
+cd ac-site-template
 
 # Install dependencies
 pnpm install
