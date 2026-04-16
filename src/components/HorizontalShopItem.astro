@@ -12,7 +12,7 @@ const {
   custom_link = false,
   custom_link_label = "",
 } = Astro.props;
-import { Image } from "astro:assets";
+import { url as baseUrl } from "../config";
 ---
 
 <div class="rounded-ac-lg bg-base-100 shadow-ac hover:shadow-ac-hover transition ease-in-out hover:scale-[102%] overflow-hidden">
@@ -20,11 +20,10 @@ import { Image } from "astro:assets";
     <div class="hero-content flex-col md:flex-row">
       {
         img && (
-          <Image
-            width={750}
-            height={422}
-            format="webp"
-            src={img}
+          <img
+            width="750"
+            height="422"
+            src={baseUrl(img)}
             alt={title}
             class="max-w-full md:max-w-[13rem] rounded-ac-md"
           />
