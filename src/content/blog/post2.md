@@ -2,8 +2,8 @@
 title: "2. Just pets"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 pubDate: "Mar 14 2025"
-heroImage: "/kiki.webp"
-tags: ["kiki"]
+heroImage: "/post_img.webp"
+tags: ["example"]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor

@@ -4,7 +4,7 @@ description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei
 pubDate: "May 28 2026"
 heroImage: "/itemPreview.webp"
 badge: "placeholder"
-github: "https://github.com/yunxinz"
-liveUrl: "https://github.com/yunxinz"
+github: "https://github.com/yourusername"
+liveUrl: "https://github.com/yourusername"
 tags: [tag1, tag2, tag3]
 ---

@@ -18,10 +18,11 @@ const {
 dayjs.extend(localizedFormat);
 const displayDate = dayjs(pubDate).format("ll");
 import { Image } from "astro:assets";
+import { AUTHOR_INITIAL } from "../config";
 ---
 
 <BaseLayout
-    title={"Yunxin | " + title}
+    title={AUTHOR_INITIAL + " | " + title}
     description={description}
     image={heroImage}
     ,

@@ -1,10 +1,10 @@
 ---
 title: "Demo notes"
-description: "I will add some of my course notes here later. And yes, Kaka has nothing to do with my notes."
+description: "I will add some of my course notes here later."
 pubDate: "Mar 14 2025"
 heroImage: "/post_img.webp"
 badge: "demo"
-tags: ["kaka","showingOffMyPets"]
+tags: ["notes"]
 ---
 
 <!-- $$

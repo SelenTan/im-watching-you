@@ -4,7 +4,7 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei
 pubDate: "Mar 14 2025"
 heroImage: "/post_img.webp"
 badge: ""
-tags: ["kaka"]
+tags: ["demo"]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor

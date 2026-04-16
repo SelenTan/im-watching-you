@@ -1,10 +1,9 @@
 ---
-title: "0. Happy Pi Day!"
-description: "+ Happy birthday dad!!! 😎 yes, absolutely the coolest dad with the coolest birthday"
+title: "Welcome to my blog"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 pubDate: "Mar 14 2025"
-heroImage: "/coolestDad.webp"
+heroImage: "/post_img.webp"
+tags: ["welcome"]
 ---
-Happy $\pi$ Day!
 
-+ Happy birthday dad!!! 😎 yes, absolutely the coolest dad with the coolest birthday
-
+Welcome to my blog! This is your first post. Edit or delete it, then start writing!
