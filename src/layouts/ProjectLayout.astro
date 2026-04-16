@@ -20,7 +20,7 @@ const {
 dayjs.extend(localizedFormat);
 const displayDate = dayjs(pubDate).format("ll");
 import { Image } from "astro:assets";
-import { AUTHOR_INITIAL } from "../config";
+import { AUTHOR_INITIAL, url } from "../config";
 ---
 
 <BaseLayout
@@ -34,11 +34,10 @@ import { AUTHOR_INITIAL } from "../config";
         <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
             {
                 heroImage && (
-                    <Image
-                        width={750}
-                        height={422}
-                        format="png"
-                        src={heroImage}
+                    <img
+                        width="750"
+                        height="422"
+                        src={url(heroImage)}
                         alt={title}
                         class="w-full mb-6 rounded-ac-lg"
                     />

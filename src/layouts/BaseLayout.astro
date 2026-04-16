@@ -18,7 +18,7 @@ const {
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" data-base={BASE_PATH}>
     <head>
         <BaseHead
             title={title}
@@ -63,7 +63,7 @@ const {
             }
         </div>
         <script is:inline>
-            var __BASE__ = `${BASE_PATH}`;
+            var __BASE__ = document.documentElement.getAttribute('data-base') || '/';
             function applyTheme(theme) {
                 document.documentElement.setAttribute('data-theme', theme);
                 localStorage.setItem('theme', theme);
