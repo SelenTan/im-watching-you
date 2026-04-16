@@ -15,7 +15,7 @@ const {
 import { Image } from "astro:assets";
 ---
 
-<div class="rounded-lg bg-base-100 hover:shadow-xl transition ease-in-out hover:scale-[102%]">
+<div class="rounded-ac-lg bg-base-100 shadow-ac hover:shadow-ac-hover transition ease-in-out hover:scale-[102%] overflow-hidden">
   <a href={url}>
     <div class="hero-content flex-col md:flex-row">
       {
@@ -26,7 +26,7 @@ import { Image } from "astro:assets";
             format="webp"
             src={img}
             alt={title}
-            class="max-w-full md:max-w-[13rem] rounded-lg"
+            class="max-w-full md:max-w-[13rem] rounded-ac-md"
           />
         )
       }
