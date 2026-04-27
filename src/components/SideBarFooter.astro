@@ -24,7 +24,7 @@ import { url } from "../config";
     class="social-icons px-4 pb-5 pt-1 flex flex-col items-start sticky bottom-0 bg-ac-cream-dark gap-1"
 >
     <a
-        href="https://github.com/yourusername"
+        href="https://github.com/SelenTan"
         target="_blank"
         class="flex items-center gap-2 px-3 py-1.5 rounded-ac-md transition-colors hover:bg-ac-sand text-sm"
         aria-label="GitHub"
@@ -35,7 +35,7 @@ import { url } from "../config";
     </a>
 
     <a
-        href="https://www.linkedin.com/in/yourusername"
+        href="https://www.linkedin.com/in/hanzi-tan-85a311258/"
         target="_blank"
         class="flex items-center gap-2 px-3 py-1.5 rounded-ac-md transition-colors hover:bg-ac-sand text-sm"
         aria-label="LinkedIn"
@@ -47,8 +47,7 @@ import { url } from "../config";
 
     <a
         href="#"
-        target="_blank"
-        class="flex items-center gap-2 px-3 py-1.5 rounded-ac-md transition-colors hover:bg-ac-sand text-sm"
+        class="secret-social-link flex items-center gap-2 px-3 py-1.5 rounded-ac-md transition-colors hover:bg-ac-sand text-sm"
         aria-label="WhatsApp"
         title="WhatsApp"
     >
@@ -57,8 +56,9 @@ import { url } from "../config";
     </a>
 
     <a
-        href="https://www.instagram.com/yourusername/"
+        href="https://www.instagram.com/labibibibibibu/"
         target="_blank"
+        rel="noopener noreferrer"
         class="flex items-center gap-2 px-3 py-1.5 rounded-ac-md transition-colors hover:bg-ac-sand text-sm"
         aria-label="Instagram"
         title="Instagram"
@@ -67,3 +67,105 @@ import { url } from "../config";
         <span>Instagram</span>
     </a>
 </div>
+
+<style is:global>
+    .secret-bubble-field {
+        position: fixed;
+        inset: 0;
+        z-index: 70;
+        pointer-events: none;
+        overflow: hidden;
+    }
+
+    .secret-bubble {
+        position: absolute;
+        left: var(--bubble-left);
+        top: var(--bubble-top);
+        padding: 0.55rem 0.85rem;
+        border: 2px solid #8f7652;
+        border-radius: 999px;
+        background: #fff8dc;
+        color: #80684a;
+        box-shadow: 0 4px 0 #d3b16f, 0 10px 18px rgb(88 65 38 / 18%);
+        font-weight: 800;
+        transform: translate(-50%, -50%) scale(0.75);
+        animation: secret-bubble-float 1.45s ease-out forwards;
+        white-space: nowrap;
+    }
+
+    .secret-bubble::after {
+        position: absolute;
+        right: 16%;
+        bottom: -0.38rem;
+        width: 0.65rem;
+        height: 0.65rem;
+        border-right: 2px solid #8f7652;
+        border-bottom: 2px solid #8f7652;
+        background: #fff8dc;
+        content: "";
+        transform: rotate(45deg);
+    }
+
+    @keyframes secret-bubble-float {
+        0% {
+            opacity: 0;
+            transform: translate(-50%, 12px) scale(0.75);
+        }
+
+        15% {
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1.04);
+        }
+
+        70% {
+            opacity: 1;
+            transform: translate(-50%, -78px) scale(1);
+        }
+
+        100% {
+            opacity: 0;
+            transform: translate(-50%, -110px) scale(0.92);
+        }
+    }
+</style>
+
+<script is:inline>
+    function showSecretBubbles() {
+        const field = document.createElement("div");
+        field.className = "secret-bubble-field";
+        document.body.appendChild(field);
+
+        const positions = [
+            ["44%", "76%"],
+            ["55%", "69%"],
+            ["48%", "59%"],
+        ];
+
+        positions.forEach(([left, top], index) => {
+            window.setTimeout(() => {
+                const bubble = document.createElement("div");
+                bubble.className = "secret-bubble";
+                bubble.textContent = "uh-oh! im keeping this secret";
+                bubble.style.setProperty("--bubble-left", left);
+                bubble.style.setProperty("--bubble-top", top);
+                field.appendChild(bubble);
+            }, index * 120);
+        });
+
+        window.setTimeout(() => field.remove(), 1900);
+    }
+
+    if (!window.__secretSocialReady) {
+        window.__secretSocialReady = true;
+        document.addEventListener("click", (event) => {
+            const target = event.target;
+            if (!(target instanceof Element)) return;
+
+            const link = target.closest(".secret-social-link");
+            if (!link) return;
+
+            event.preventDefault();
+            showSecretBubbles();
+        });
+    }
+</script>
