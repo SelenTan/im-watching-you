@@ -2,7 +2,7 @@
 title: "Navigation and Security Lab Demo"
 description: "A React and FastAPI navigation demo used for authorised security lab analysis."
 pubDate: "Apr 28 2026"
-heroImage: "/project4.png"
+heroImage: "/project4.jpg"
 badge: "security"
 github: "https://github.com/ChrisXiejq/security_team_25"
 tags: ["security", "react", "fastapi"]

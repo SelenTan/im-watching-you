@@ -2,7 +2,7 @@
 title: "BreastMNIST Classification with SVM and CNN"
 description: "A machine learning benchmark comparing classical and deep learning approaches for BreastMNIST classification."
 pubDate: "Apr 28 2026"
-heroImage: "/project2.png"
+heroImage: "/project2.jpg"
 badge: "ML"
 github: "https://github.com/SelenTan/AMLS_25-26_SN25187537"
 tags: ["machine-learning", "medical-imaging", "pytorch"]
