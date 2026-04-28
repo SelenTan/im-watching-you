@@ -2,7 +2,7 @@
 title: "Demo notes"
 description: "I will add some of my course notes here later."
 pubDate: "Mar 14 2025"
-heroImage: "/post_img.png"
+heroImage: "/note1.png"
 badge: "demo"
 tags: ["notes"]
 ---
