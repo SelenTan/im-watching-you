@@ -9,7 +9,7 @@ export const GENERATE_SLUG_FROM_TITLE = true;
 export const TRANSITION_API = true;
 
 // Base path helper for GitHub Pages project sites
-// In dev: "/" — in prod with BASE_URL: "/ac-site-template/"
+// In dev: "/" — in prod with BASE_URL: "/im-watching-you/"
 const BASE_PATH = import.meta.env.BASE_URL;
 export const url = (path: string) => {
   const clean = path.replace(/^\//, "");

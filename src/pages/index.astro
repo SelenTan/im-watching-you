@@ -10,15 +10,9 @@ import { url } from "../config";
             Hey! You are under my watch! Beware of what you do here!
         </div>
         <div class="text-5xl font-bold">I'm Selene</div>
-        <div class="text-xl py-6">
-            I study machine learning systems at UCL, collect good questions,
-            and turn messy ideas into little working things. <br />
-            This is my corner for projects, notes, and whatever I am curious
-            enough to chase next.
-        </div>
 
-        <div class="mt-8 space-y-3">
-            <div class="text-2xl font-bold">Visitor Notice</div>
+        <div class="mt-10 space-y-3">
+            <div class="text-2xl font-bold">Notice Board</div>
             <div class="text-lg">
                 This place is mostly harmless, lightly supervised, and full of
                 things I am still figuring out.
@@ -33,6 +27,41 @@ import { url } from "../config";
             </div>
             <div class="text-lg">
                 Try clicking WhatsApp. There's a surprise.
+            </div>
+        </div>
+
+        <div class="mt-12 grid gap-5 md:grid-cols-[220px_1fr] md:items-center">
+            <div class="rounded-ac-lg border border-base-300 bg-base-200/60 p-3">
+                <img
+                    src={url("sweet-daisy-placeholder.svg")}
+                    alt="A placeholder portrait for Sweet Daisy"
+                    class="aspect-square w-full rounded-ac-lg object-cover"
+                />
+            </div>
+            <div class="space-y-3">
+                <div class="text-2xl font-bold">Meet my cat</div>
+                <div class="text-lg">
+                    His name is a mystery that no one fully agrees on.
+                </div>
+                <div class="text-lg">
+                    Want to know the true story? It is hiding under
+                    <a
+                        href={url("blog/")}
+                        class="font-bold underline decoration-dotted underline-offset-4"
+                    >
+                        blog
+                    </a>.
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-12 space-y-3">
+            <div class="text-2xl font-bold">A Brief Introduction</div>
+            <div class="text-xl">
+                I study machine learning systems at UCL, collect good questions,
+                and turn messy ideas into little working things. <br />
+                This is my corner for projects, notes, and whatever I am curious
+                enough to chase next.
             </div>
         </div>
     </div>

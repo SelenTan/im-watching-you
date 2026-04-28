@@ -1,9 +1,9 @@
 ---
-title: "Demo notes"
-description: "I will add some of my course notes here later."
-pubDate: "Mar 14 2025"
+title: "You don't actually expect me to write notes right?"
+description: "Do You?"
+pubDate: "Mar 31 2026"
 heroImage: "/note1.jpg"
-badge: "demo"
+badge: "notes? cats!"
 tags: ["notes"]
 ---
 

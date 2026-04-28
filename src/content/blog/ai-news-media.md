@@ -10,7 +10,7 @@ tags: ["AI", "news media", "ethics"]
 
 The news media industry has long been responsible for informing the public, explaining events, and organising public discussion. In the past, news distribution depended mainly on editorial judgement and fixed page layouts. Media organisations decided which issues deserved prominence and which stories should appear on the front page, and readers encountered news in a relatively limited information environment. This pattern changed with the rise of digital platforms. News no longer reaches audiences only through newspaper front pages or television schedules. It now appears on personal screens through news apps, social media platforms, and content platforms.
 
-![Article figure](/blog/ai-news-media/figure-1.png)
+![Article figure](../../blog/ai-news-media/figure-1.png)
 
 *Figure 1. Preferred access to news across markets, highlighting the dominance of algorithmic and side-door access. (Fletcher, 2020)*
 
@@ -22,7 +22,7 @@ Another challenge is that the goal of news distribution itself has changed. In t
 
 A further challenge is that audience demand has become more fragmented and individualised. Digital news users are not a uniform group. People of different ages, professions, interests, and media habits want different kinds of content. The traditional one to many model finds it difficult to respond to such differences. By contrast, algorithm driven intelligent distribution is better able to address individual variation. The platform cases discussed in research may come from music, short video, and ecommerce rather than from news, yet their common logic is clear. Platforms build profiles from behavioural and identity data, match content to those profiles, and provide users with products or information that are most likely to meet their needs. This shows that personalised recommendation is not unique to journalism, but part of a wider mechanism of digital platform communication. News media need to adopt AI and ML because they must handle large volumes of content, understand user preferences, and improve communication efficiency within the same competitive platform environment.
 
-![Article figure](/blog/ai-news-media/figure-2.png)
+![Article figure](../../blog/ai-news-media/figure-2.png)
 
 *Figure 2. The shift in news consumption towards diverse social networks and the impact of platform algorithm changes. (Fletcher, 2020)*
 
@@ -34,13 +34,13 @@ In the news industry, artificial intelligence is not used in only one way. It op
 
 One major technology in this area is the recommendation system. A recommendation system is a model based mechanism that uses user data and content features to predict what a user is more likely to read, watch, or engage with. It helps a platform decide which items should appear first and which items should appear lower down in the feed. In practice, this is one of the clearest responses to information overload. News platforms publish and host very large amounts of material every day, and users do not have the time to search through everything for themselves. If all content were presented in the same way, much of it would remain unseen and users would face a confusing stream of choices. Recommendation systems reduce this problem by ranking content according to likely relevance.
 
-![Article figure](/blog/ai-news-media/figure-3.png)
+![Article figure](../../blog/ai-news-media/figure-3.png)
 
 *Figure 3. The architecture of a content-based news recommendation system, illustrating the continuous learning loop between reader behaviour and algorithmic rating. (Liang and Lai, 2002)*
 
 These systems usually combine several signals. One common signal is popularity, which gives greater visibility to content that is already attracting wider attention. Another is collaborative filtering, which predicts a user’s interests by examining the behaviour of similar users. A third is content based preference modelling, where the platform learns from the topics, formats, and stories that a user has previously consumed. When these signals are brought together, the system can produce a personalised order of visibility. In the news sector, this helps platforms deliver material to users more efficiently and on a much larger scale than traditional manual curation alone. It also matches the reality of mobile news use, where people often read in short and fragmented moments rather than in long and planned sessions.
 
-![Article figure](/blog/ai-news-media/figure-4.png)
+![Article figure](../../blog/ai-news-media/figure-4.png)
 
 *Figure 4. The mechanisms of collaborative filtering and content-based filtering in news recommendation systems. (Mohamed et al., 2019)*
 
@@ -66,7 +66,7 @@ Even where AI improves speed and scale, it does not remove the need for human ju
 
 ## Privacy, Bias, and Trust: The Ethical Cost of AI-Driven News
 
-![Article figure](/blog/ai-news-media/figure-5.png)
+![Article figure](../../blog/ai-news-media/figure-5.png)
 
 *Figure 5. Ethical Implications of AI in News Media*
 
@@ -82,7 +82,7 @@ In an industry centred on being informed, expressing views, and taking part in p
 
 A second issue is bias and the narrowing of vision. This problem should not be blamed entirely on technology, because users themselves already show a tendency towards selective exposure. Garrett’s research suggests that internet news users are more likely to encounter information that reinforces views they already hold. This means that the ethical risk of recommendation systems does not lie in creating preferences from nothing. It lies in the fact that they may keep amplifying preferences that users already have, so that people become less likely to encounter different views.
 
-![Article figure](/blog/ai-news-media/figure-6.png)
+![Article figure](../../blog/ai-news-media/figure-6.png)
 
 *Figure 6. A conceptual illustration of the filter bubble effect, demonstrating how algorithmic selection isolates users from challenging information. (Vins, 2018)*
 
@@ -90,7 +90,7 @@ At the same time, this risk should not be described too absolutely. Fletcher and
 
 In other words, the ethical problem is not that platforms simply control users in a one sided way. It is that platforms gradually narrow the visible world by amplifying existing tendencies. One click, one period of viewing time, or one share can be treated as a stable preference and then become the basis of the next round of recommendation. The bias formed in this way does not always appear as the direct promotion of an extreme political position. More often, it appears as repeated reinforcement of certain issues, continuous preference for certain emotional styles, or the systematic absence of different social experiences and interpretive frames. Users may not immediately realise that they are trapped in a narrow information environment, because most of what they see is real, relevant, and sometimes even high quality. The problem is precisely that this content becomes more and more similar, more and more consistent with existing judgement, and less and less likely to challenge prior understanding.
 
-![Article figure](/blog/ai-news-media/figure-7.png)
+![Article figure](../../blog/ai-news-media/figure-7.png)
 
 *Figure 7. Comparison of public political polarization in the U.S. over the past two decades. (Alatawi et al., 2021)*
 
