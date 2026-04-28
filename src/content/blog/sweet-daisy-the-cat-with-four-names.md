@@ -1,12 +1,12 @@
 ---
-title: "Sweet Daisy, the Cat With Four Names"
+title: "Tian Ju, the Cat With Four Names"
 description: "A tiny family mystery about one ginger cat, one Chinese name, and four completely different interpretations."
 pubDate: "Apr 28 2026"
-heroImage: "/sweet-daisy-placeholder.svg"
+heroImage: "/blog2.jpg"
 tags: ["cat", "life", "family"]
 ---
 
-My cat is a ginger cat, and his name is yet a mystery to find out).
+My cat is a ginger cat, and his name is yet a mystery to find out.
 
 In Chinese, his name sounds like **Tian Ju**. The important thing to know is that Chinese has many words that sound the same but use different characters, and different characters can completely change the meaning. So one cat name can quietly become a family debate.
 
@@ -33,3 +33,10 @@ And I do not think he belongs only to my dad, because I am the official snack an
 So maybe Sweet Daisy belongs to all of us. Or maybe, more accurately, we all belong to him.
 
 He arrived with one name and accidentally collected four meanings, three arguments, and an entire household of staff. Not bad for a ginger cat. I guess he never really cared about what his name is anyway.
+
+<div class="not-prose mt-8 grid grid-cols-2 gap-4">
+  <img src="../../tj8.jpg" alt="Sweet Daisy resting quietly" class="h-64 w-full rounded-ac-lg object-cover" />
+  <img src="../../tj9.jpg" alt="Sweet Daisy looking comfortable at home" class="h-64 w-full rounded-ac-lg object-cover" />
+  <img src="../../tj4.jpg" alt="Sweet Daisy showing his ginger-cat charm" class="h-64 w-full rounded-ac-lg object-cover" />
+  <img src="../../tj6.jpg" alt="Sweet Daisy being Sweet Daisy" class="h-64 w-full rounded-ac-lg object-cover" />
+</div>
