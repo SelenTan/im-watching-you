@@ -6,7 +6,7 @@ heroImage: "/blog3.jpg"
 tags: ["cat", "life", "chaos"]
 ---
 
-<img src="../../tj14.jpg" alt="Tian Ju looking innocent before the assassination attempts begin" class="not-prose mb-8 max-h-[520px] w-full rounded-ac-lg object-cover" />
+<img src="/im-watching-you/tj14.jpg" alt="Tian Ju looking innocent before the assassination attempts begin" class="not-prose mb-8 max-h-[520px] w-full rounded-ac-lg object-cover" />
 
 My cat is an ordinary cat. Sometimes he is clever: he knows his name, and he absolutely knows how to find a human when dinner is late.
 
@@ -26,4 +26,4 @@ If I do not want my legs covered in scratches, I simply accept my fate.
 
 One day, I hope he discovers peace. Until then, I will continue living under orange surveillance.
 
-<img src="../../tj13.jpg" alt="Tian Ju preparing another suspiciously cute attack" class="not-prose my-8 max-h-[520px] w-full rounded-ac-lg object-cover" />
+<img src="/im-watching-you/tj13.jpg" alt="Tian Ju preparing another suspiciously cute attack" class="not-prose my-8 max-h-[520px] w-full rounded-ac-lg object-cover" />

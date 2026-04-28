@@ -2,7 +2,7 @@
 title: "How Artificial Intelligence Is Reshaping News Media: From Intelligent Distribution to Ethical Governance"
 description: "How AI is changing news distribution, production, and the ethical boundaries of journalism."
 pubDate: "Apr 30 2026"
-heroImage: "/blog/ai-news-media/figure-1.png"
+heroImage: "/blog1.jpeg"
 tags: ["AI", "news media", "ethics"]
 ---
 

@@ -35,8 +35,8 @@ So maybe Sweet Daisy belongs to all of us. Or maybe, more accurately, we all bel
 He arrived with one name and accidentally collected four meanings, three arguments, and an entire household of staff. Not bad for a ginger cat. I guess he never really cared about what his name is anyway.
 
 <div class="not-prose mt-8 grid grid-cols-2 gap-4">
-  <img src="../../tj8.jpg" alt="Sweet Daisy resting quietly" class="h-64 w-full rounded-ac-lg object-cover" />
-  <img src="../../tj9.jpg" alt="Sweet Daisy looking comfortable at home" class="h-64 w-full rounded-ac-lg object-cover" />
-  <img src="../../tj4.jpg" alt="Sweet Daisy showing his ginger-cat charm" class="h-64 w-full rounded-ac-lg object-cover" />
-  <img src="../../tj6.jpg" alt="Sweet Daisy being Sweet Daisy" class="h-64 w-full rounded-ac-lg object-cover" />
+  <img src="/im-watching-you/tj8.jpg" alt="Sweet Daisy resting quietly" class="h-64 w-full rounded-ac-lg object-cover" />
+  <img src="/im-watching-you/tj9.jpg" alt="Sweet Daisy looking comfortable at home" class="h-64 w-full rounded-ac-lg object-cover" />
+  <img src="/im-watching-you/tj4.jpg" alt="Sweet Daisy showing his ginger-cat charm" class="h-64 w-full rounded-ac-lg object-cover" />
+  <img src="/im-watching-you/tj6.jpg" alt="Sweet Daisy being Sweet Daisy" class="h-64 w-full rounded-ac-lg object-cover" />
 </div>
